@@ -15,14 +15,14 @@ const Cards = ({
         <div className={cardStyle.container}>
            <div className={ `card ${cardStyle.card}`}>
                <div className={cardStyle.content}>
-               <img src="" alt="" />
+               <img src=https://avatars.dicebar.com/v2/avataaars/{{username}}.svg?options[mood][]=happy` alt="avatar images" />
                <div className={cardStyle.text}>
                <h1>{name}</h1>
                <p>Email: {email}</p>
                <p>Phone:{phone}</p>
                <p>Company:{company}</p>
                <p>Website:{website}</p>
-               <p>Address:{address}</p>
+               <p>Address:{address.street}, {address.suite}, {address.city}, {address.zipcode}</p>
                </div>
                </div>
                </div>

@@ -4,7 +4,7 @@ import infoStyle from "./style/Infos.module.css";
 
 
 const Infos = () => {
-        const [data, setData] = React.useState({user: []});
+        const [data, setData] = React.useState([]);
 
   React.useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
@@ -18,8 +18,8 @@ const Infos = () => {
   return(
       <div>
             
-        {data && data.map((users) => (
-            <Cards
+        {data?.map((users, i) => (
+            <Cards key={i}
             name={users.name}
             email={users.email}
             phone={users.phone}
