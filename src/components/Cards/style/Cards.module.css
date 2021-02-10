@@ -1,0 +1,24 @@
+.container{
+    margin: 30px 70px;
+}
+
+
+.card{ 
+    width: 90%;
+    height: 250px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    padding: 30px 20px;
+}
+.content{
+    display:flex;
+}
+.text h1{
+    margin-left: 50px;
+}
+.content p{
+    margin-left: 50px;
+    font-weight: bold;
+}
