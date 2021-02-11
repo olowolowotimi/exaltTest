@@ -4,7 +4,7 @@
 
 
 .card{ 
-    width: 90%;
+    width: 100%;
     height: 250px;
 }
 .card img{
@@ -21,4 +21,17 @@
 .content p{
     margin-left: 50px;
     font-weight: bold;
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        margin:20px auto;
+    }
+    .card{
+        width:100%;
+        height: 100%;
+    }
+    .content{
+        flex-wrap:wrap;
+    }
 }
