@@ -21,14 +21,14 @@ const Cards = ({
           />
           <div className={cardStyle.text}>
             <h1>{name}</h1>
-            <p>Email: {email}</p>
-            <p>Phone: {phone}</p>
-            <p>Company: {company}</p>
-            <p>Website: {website}</p>
-            <p>
-              Address: {address.street}, {address.suite}, {address.city},{" "}
-              {address.zipcode}
-            </p>
+            <p><span>Email</span>:{email}</p>
+            <p><span>Phone</span>:{phone}</p>
+            <p><span>Company</span>:{company}</p>
+            <p><span>Website</span>:{website}</p>
+            <p><span>
+              Address</span>   :  {address.street}, {address.suite}, {address.city},{" "}
+              {address.zipcode}</p>
+            
           </div>
         </div>
       </div>
