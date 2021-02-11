@@ -20,6 +20,7 @@ const Infos = () => {
             
         {data?.map((users, i) => (
             <Cards key={i}
+            username={users.username}
             name={users.name}
             email={users.email}
             phone={users.phone}
