@@ -26,7 +26,7 @@ const Cards = ({
             <p><span>Company</span>:{company}</p>
             <p><span>Website</span>:{website}</p>
             <p><span>
-              Address</span>   :  {address.street}, {address.suite}, {address.city},{" "}
+              Address</span>:{address.street}, {address.suite}, {address.city},
               {address.zipcode}</p>
             
           </div>

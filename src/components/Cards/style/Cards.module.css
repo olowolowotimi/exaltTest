@@ -39,7 +39,7 @@
         flex-wrap:wrap;
     }
     .text h1,
-    .text p{
+    .text span{
         text-align:left;
         margin-left: 0;
     }
