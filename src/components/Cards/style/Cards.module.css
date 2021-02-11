@@ -13,14 +13,18 @@
     padding: 30px 20px;
 }
 .content{
+    padding: 0 10px;
     display:flex;
 }
 .text h1{
+    color: #212529;
+    font-weight: bolder;
     margin-left: 50px;
 }
 .text p{
     margin-left: 50px;
     font-weight: bold;
+    color: #212529;
 }
 
 @media only screen and (max-width:768px){
@@ -32,8 +36,12 @@
         height: 100%;
     }
     .content{
-        justify-content: center;
         flex-wrap:wrap;
+    }
+    .text h1,
+    .text p{
+        text-align:left;
+        margin-left: 0;
     }
     
 }
