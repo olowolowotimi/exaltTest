@@ -27,7 +27,7 @@ const Cards = ({
             <p><span>Website</span>:{website}</p>
             <p><span>
               Address</span>:{address.street}, {address.suite}, {address.city},
-              {address.zipcode}</p>
+                 {address.zipcode}</p>
             
           </div>
         </div>

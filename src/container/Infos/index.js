@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Cards from "../../components/Cards";
-import spinner from "../../components/spinner";
+import Spinner from "../../components/spinner";
 import infoStyle from "./style/Infos.module.css";
 
 
@@ -19,6 +19,7 @@ const Infos = () => {
   return(
       <div>
           
+          
             
         {data?.map((users, i) => (
             <Cards key={i}
@@ -32,7 +33,7 @@ const Infos = () => {
             />
             
         ))}
-        
+       
            
           </div>
       
