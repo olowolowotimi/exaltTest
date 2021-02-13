@@ -62,10 +62,10 @@
     .text h1,
     .text span{
         text-align:left;
-        margin-left: 5px;
+        margin-left: 2px;
     }
     .text h1{
-        margin-left: 30px;
+        margin-left: 25px;
     }
     
 }
