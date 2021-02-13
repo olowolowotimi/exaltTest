@@ -7,24 +7,25 @@
     cursor: pointer;
     width: 100%;
     height: 270px;
-    background-image: linear-gradient(#da68a0, #77c593, #ed3572);
-}
-.card:hover{
-    background-image:repeating-linear-gradient(#efb5a3, #f57e7e, #315f72);
+    background-color:  rgb(16, 119, 16);
+
 }
 .card img{
     width: 200px;
     height: 200px;
-    padding: 30px 20px;
-    border-radius: 80%;
-    
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color:rgb(70, 161, 161);
 }
 .content{
-    color:white;
+    color:black;
     padding: 0 10px;
     display:flex;
 
 
+}
+.line{
+    border: 2px solid orange;
 }
 .text h1{
     color: #212529;
@@ -34,24 +35,31 @@
 
 .text span{
     margin-left: 50px;
-    color:white;
+    color:orange;
 }
 
 @media only screen and (max-width:768px){
     .container{
-        margin:20px auto;
+        margin:20px 0px;
+        align-items: center;
     }
     .card{
         width:100%;
         height: 100%;
     }
+    .card img{
+        padding: 0;
+        align-items:center;
+    }
     .content{
         flex-wrap:wrap;
+        align-items:center;
+        justify-content: center;
     }
     .text h1,
     .text span{
         text-align:left;
-        margin-left: 0;
+        margin-left: 10px;
     }
     
 }

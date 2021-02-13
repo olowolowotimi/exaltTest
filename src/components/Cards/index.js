@@ -26,13 +26,13 @@ const Cards = ({
           />
           <div className={cardStyle.text}>
             <h1>{name}</h1>
-            <hr/>
-            <p><span><MdEmail/> : </span> {email}</p>
-            <p><span><FiPhone/> : </span>  {phone}</p>
-            <p><span><BiBuildingHouse/> : </span>  {company}</p>
-            <p><span><CgWebsite/> : </span>  {website}</p>
+            <hr className={cardStyle.line}/>
+            <p><span><MdEmail/></span> {email}</p>
+            <p><span><FiPhone/></span>  {phone}</p>
+            <p><span><BiBuildingHouse/></span>  {company}</p>
+            <p><span><CgWebsite/></span>  {website}</p>
             <p><span>
-              <FaAddressCard/> : </span>  {address.street}, {address.suite}, {address.city},
+              <FaAddressCard/></span>  {address.street}, {address.suite}, {address.city},
                  {address.zipcode}</p>
             
           </div>
