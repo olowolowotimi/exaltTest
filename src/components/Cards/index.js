@@ -1,5 +1,10 @@
 import React from "react";
 import cardStyle from "./style/Cards.module.css";
+import{MdEmail} from 'react-icons/md';
+import {FiPhone} from "react-icons/fi";
+import {BiBuildingHouse} from "react-icons/bi";
+import {CgWebsite} from "react-icons/cg";
+import {FaAddressCard} from "react-icons/fa";
 import PropTypes from "prop-types";
 
 const Cards = ({
@@ -21,12 +26,13 @@ const Cards = ({
           />
           <div className={cardStyle.text}>
             <h1>{name}</h1>
-            <p><span>Email</span>:{email}</p>
-            <p><span>Phone</span>:{phone}</p>
-            <p><span>Company</span>:{company}</p>
-            <p><span>Website</span>:{website}</p>
+            <hr/>
+            <p><span><MdEmail/> : </span> {email}</p>
+            <p><span><FiPhone/> : </span>  {phone}</p>
+            <p><span><BiBuildingHouse/> : </span>  {company}</p>
+            <p><span><CgWebsite/> : </span>  {website}</p>
             <p><span>
-              Address</span>:{address.street}, {address.suite}, {address.city},
+              <FaAddressCard/> : </span>  {address.street}, {address.suite}, {address.city},
                  {address.zipcode}</p>
             
           </div>

@@ -4,27 +4,37 @@
 
 
 .card{ 
+    cursor: pointer;
     width: 100%;
-    height: 250px;
+    height: 270px;
+    background-image: linear-gradient(#da68a0, #77c593, #ed3572);
+}
+.card:hover{
+    background-image:repeating-linear-gradient(#efb5a3, #f57e7e, #315f72);
 }
 .card img{
     width: 200px;
     height: 200px;
     padding: 30px 20px;
+    border-radius: 80%;
+    
 }
 .content{
+    color:white;
     padding: 0 10px;
     display:flex;
+
+
 }
 .text h1{
     color: #212529;
     font-weight: bolder;
     margin-left: 50px;
 }
+
 .text span{
     margin-left: 50px;
-    font-weight: bold;
-    color: #212529;
+    color:white;
 }
 
 @media only screen and (max-width:768px){
